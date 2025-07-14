@@ -82,7 +82,7 @@ We conduct experiments on standard benchmarks and **challenging fluid dynamics**
 
 ```
 @inproceedings{wu2025propinn,
-  title={RoPINN: Region Optimized Physics-Informed Neural Networks},
+  title={ProPINN: Demystifying Propagation Failures in Physics-Informed Neural Networks},
   author={Haixu Wu and Yuezhou Ma and Hang Zhou and Huikun Weng and Jianmin Wang and Mingsheng Long},
   booktitle={arXiv preprint arXiv:2502.00803},
   year={2025}
