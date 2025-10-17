@@ -100,7 +100,7 @@ for i in tqdm(range(1000)):
 
     optim.step(closure)
 
-print('Loss Res: {:4f}, Loss_BC: {:4f}, Loss_IC: {:4f}'.format(loss_track[-1][0], loss_track[-1][1], loss_track[-1][2]))
+print('Loss Res: {:4f}, Loss_BC: {:4f}, Loss_IC: {:4f}'.format(loss_track[-1][0], loss_track[-1][1] + loss_track[-1][2], loss_track[-1][3]))
 print('Train Loss: {:4f}'.format(np.sum(loss_track[-1])))
 
 if not os.path.exists('./results/'):
